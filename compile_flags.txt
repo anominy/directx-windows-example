@@ -1,0 +1,15 @@
+-std=c17
+-O0
+-m32
+-Wall
+-Wextra
+-Wpedantic
+-D_UNICODE
+-DUNICODE
+-DWIN32_LEAN_AND_MEAN
+-DWIN32_EXTRA_LEAN
+-Wno-comment
+-Wno-extra-semi
+-Wno-microsoft-enum-value
+-I./ext/dxsdk/inc
+-L./ext/dxsdk/lib/x86
